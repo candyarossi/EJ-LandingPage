@@ -1,0 +1,60 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.card-img {
+	animation-name: fondo;
+	animation-duration: 6s; 
+	animation-direction: alternate; 
+	animation-timing-function: linear; 
+}
+
+.iso{
+	animation-name: iso1;
+	animation-duration: 6s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes fondo{ 
+	0%{
+		background-color: #FCDF8F; 
+	}
+	20%{
+		background-color: #FA8E37; 
+	}
+	40%{
+		background-color: #F21776; 
+	}
+	60%{
+		background-color: #AE26CA;
+	}
+	80%{
+		background-color: #454DF9;
+	}
+	100%{
+		background-color: #fff; 
+	}
+}
+
+@keyframes iso1{
+	0%{
+		opacity: 0;
+	}
+	80%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 100;
+	}
+}
+
+
+/*
+#FCDF8F amarillo
+#FA8E37 naranja
+#454DF9 azul
+#AE26CA violeta
+#F21776 rosa
+*/
+
+

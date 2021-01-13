@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <title>Landing Page</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun scale=1.0" />
+
+<link href="https://fonts.googleapis.com/css?family=Merienda:400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/anim.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+<!--<link href="../css/volver.css" rel="stylesheet" type="text/css">-->
+<link rel="shortcut icon" href="../images/ico.png"/>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link rel="stylesheet" href="js/bootstrap.min.js" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header class="col-xs-12 col-sm-12 col-md-12">
+<div id="myTopnav" class="content-box">
+<br>
+<div class="topnav">
+  <a class="navbar-logo" href="index.html">
+	<img src="Isologo.png" style="height: 70px; margin-top: -30px; margin-left: -2px;">
+    </a>
+
+  <a class="btt" href="../index2.html">Mis trabajos</a>
+  <a class="btt" href="CV.pdf" target="_blank">Descarg&aacute; mi CV</a>
+  <a class="btt" href="#foot">Contacto</a>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+    </header>
+    <div class="container">
+   <section class="main row"> <!-- row el contenido ocupara toda la fila -->
+    	<article class="col-xs-12 col-sm-12 col-md-12"> <!-- xs celular, sm tablet, md computadora -->
+<br>
+<br>
+        	<div class="card col-xs-12 col-sm-12 col-md-12">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	<div class="card-img">
+	<img src="insta2.png" alt="..." width="250px">
+	<div class="iso">
+	<img src="insta2.png" alt="..." width="250px">
+	</div>
+	</div>
+      <!--<img src="Flyer.jpg" class="card-img" alt="...">-->
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title">¡Instagram te est&aacute; esperando!</h4>
+        <p class="card-text">Particip&aacute; en el sorteo presionando el bot&oacute;n de suscribirse y gan&aacute; el diseño de un post publicitario para tu Instagram, ¡Expande tu negocio utilizando las redes sociales!</p>
+
+<small id="emailHelp" class="form-text text-muted">Para m&aacute;s informaci&oacute;n consulte las <a href="#" class="ac">Bases y Condiciones</a> del sorteo.</small> <br>
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+	Suscribete
+</button>  
+</div>
+	</div>	
+	  </div>
+				</div>
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog col-xs-12 col-sm-12 col-md-12" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title" id="myModalLabel">Ingrese sus datos</h4>	
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form action="formularioweb.php" method="POST" enctype="multipart/form-data">
+ <div class="form-group">
+    <label for="name">Nombre</label>
+    <input type="name" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Nombre"> 
+</div>
+	 
+ <div class="form-group">
+    <label for="surname">Apellido</label>
+    <input type="surname" class="form-control" name="surname" id="surname" aria-describedby="emailHelp" placeholder="Apellido"> 
+</div>
+	 
+<div class="form-group">
+    <label for="exampleInputEmail1">Correo Electr&oacute;nico</label>
+    <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Email"> 
+
+   <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+  
+  <!-- <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+
+  </div>
+  <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+        </article>
+    </section>
+<br>
+<br>
+    <div class="row">
+    	<div class="color1 col-xs-12 col-sm-12 col-md-12">
+<div class="card col-xs-12 col-sm-12 col-md-12">
+<br><h4>Algunos de nuestros clientes</h4>
+<div id="botones">
+        	<nav>
+<ul>
+<li class="horizontal"><a href="https://www.facebook.com/SuTaxiMDP/" target="_blank"><img src="Logo1.png" style="height: 70px; margin-top: -5px;"></a></li>
+<li class="horizontal"><a href="https://www.instagram.com/elizabeht.eventos/" target="_blank"><img src="Logo2.png" style="height: 50px; margin-top: -5px;"></a></li>
+<li class="horizontal"><a href="https://www.instagram.com/twi5teroficial/" target="_blank"><img src="Logo3.png" style="height: 100px; margin-top: -5px;"></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="color2 col-xs-12 col-sm-12 col-md-12">
+<div class="card-2 col-xs-8 col-sm-12 col-md-12">
+<br>
+<h4 class="card-title2">¡No pierdas la oportunidad!</h4>
+        <p class="card-text2">¡Hacete visible en la red social favorita de todo el mundo! Particip&aacute; del sorteo, pod&eacute;s ganarte el diseño de un post publicitario para el Instagram de tu negocio.</p>
+<br>
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+	Suscribite
+</button>  
+</div>
+<div class="card-3 col-xs-4 col-sm-12 col-md-12">
+<br>
+<h4 class="card-title3">¿Quer&eacute;s saber m&aacute;s de m&iacute;?</h4>
+<br>
+<br>
+<button type="button" style="margin-top: 20px;" class="btn btn-primary btn-lg"><a id="cv2" href="CV.pdf" target="_blank">
+	Descarg&aacute; mi CV</a>
+</button>  
+</div>
+</div>
+</div>
+</div>
+<br> 
+<br>
+<footer class="col-xs-12 col-sm-12 col-md-12">
+<div id="foot">
+<br>
+    	<h4 style="margin-top: -10px;">Contacto</h4>
+        <p style="margin-bottom: -10px;">+54 223 4490446 <br>candyarossi@hotmail.com <br>Candela Yarossi Dise&ntilde;o Gr&aacute;fico <br>@candyarossi.dg <br>
+        </p> 
+<br>
+</div>
+	<div id="cel"><img src="wsp.png" style="height: 23px; margin-top: -3px;"></div>
+	<div id="mail"><img src="mail.png" style="height: 23px; margin-top: -3px;"></div>
+	<div id="face"><img src="face.png" style="height: 23px; margin-top: -3px;"></div>
+	<div id="insta"><img src="insta.png" style="height: 23px; margin-top: -3px;"></div>
+
+    </footer>
+
+<div class="mapa">
+<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+		<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+        var setting = {"height":150,"width":250,"zoom":16,"queryString":"La Pampa 1619, Mar del Plata, Buenos Aires, Argentina","place_id":"ChIJk57Q8FHZhJUR24SeXMgD75o","satellite":false,"centerCoord":[-37.99021111240269,-57.56368400000002],"cid":"0x9aef03c85c9e84db","cityUrl":"/argentina/mar-del-plata-19399","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"104499"};
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=104499';
+        s.async = true;
+        s.onload = function (e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();</script><a href="https://1map.com/map-embed?embed_id=104499">1map.com</a></div>
+</div>
+
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<!--<nav class="boton"><a href="../index2.html">Volver</a></nav>-->
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+</body>
+</html>
